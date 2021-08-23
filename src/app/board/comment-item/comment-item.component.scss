@@ -1,0 +1,17 @@
+.comment-item {
+  border-top: 1px solid rgba(223, 223, 223, 0.37);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-delete {
+  transition: color ease 0.2s;
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+
+// mat-icon {
+//   font-size: 18px !important;
+// }
